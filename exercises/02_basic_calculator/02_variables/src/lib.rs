@@ -5,9 +5,14 @@
 
 /// Given the start and end points of a journey, and the time it took to complete it,
 /// calculate the average speed.
+/// when average speed is equal to distance ( end time - start time) divide by the total time elapsed
 pub fn speed(start: u32, end: u32, time_elapsed: u32) -> u32 {
     // TODO: define a variable named `distance` with the right value to get tests to pass
     //  Do you need to annotate the type of `distance`? Why or why not?
+    let distance: u32 = end - start;
+
+    // There is need to annotate the type of the variable distance else the default type of i32 
+    // (signed 32-bit) will be assigned to the variable.
 
     // Don't change the line below
     distance / time_elapsed
