@@ -15,7 +15,7 @@ pub fn speed(start: u32, end: u32, time_elapsed: u32) -> u32 {
     // (signed 32-bit) will be assigned to the variable.
 
     // Don't change the line below
-    distance / time_elapsed
+    distance / time_elapsed 
 }
 
 #[cfg(test)]

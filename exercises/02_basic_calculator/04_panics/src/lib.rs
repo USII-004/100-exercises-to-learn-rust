@@ -3,9 +3,15 @@
 fn speed(start: u32, end: u32, time_elapsed: u32) -> u32 {
     // TODO: Panic with a custom message if `time_elapsed` is 0
     if time_elapsed == 0 {
+<<<<<<< HEAD
         panic!("The journey took no time at all, that's impossible!");
     }
 
+=======
+        panic!("The journey took no time at all, that's impossible!")
+    }
+    
+>>>>>>> b3b0ba0c84a3d1a6106786bcf684ddc30831219a
     (end - start) / time_elapsed
 }
 

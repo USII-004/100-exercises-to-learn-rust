@@ -2,7 +2,11 @@
 fn is_even(n: u32) -> bool {
     if n % 2 == 0 {
         true
+<<<<<<< HEAD
     } else {
+=======
+    }else {
+>>>>>>> b3b0ba0c84a3d1a6106786bcf684ddc30831219a
         false
     }
 }

@@ -13,8 +13,13 @@
 fn factorial (n: u32) -> u32 {
     if n == 0 {
         1
+<<<<<<< HEAD
     } else {
         n * factorial(n - 1)
+=======
+    }else {
+        n  * factorial(n-1)
+>>>>>>> b3b0ba0c84a3d1a6106786bcf684ddc30831219a
     }
 }
 
